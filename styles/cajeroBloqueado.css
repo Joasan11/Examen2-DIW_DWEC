@@ -12,6 +12,7 @@ h1{
     font-size: 40px;
     margin-bottom: 25px;
     margin-top: 20%;
+    color: white;
 }
 
 /*Estilos para el boton*/
@@ -32,4 +33,5 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     text-align: center;
+    color: white;
 }
