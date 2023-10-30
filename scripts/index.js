@@ -1,6 +1,6 @@
 /* Variables principales del cajero */
 let saldo = 1000;
-const PIN_CORRECTO = "1234";
+let PIN_CORRECTO = "1234";
 let intentosRestantes = 3;
 
 /* Funcion para mostrar el saldo actualizado y con 2 decimales */
@@ -85,6 +85,17 @@ function cerrarSesion() {
 
 /* Funcion para cambiar contraseña */
 function cambiarContrasena(){
-    const nuevoPIN = 12;
-    PIN_CORRECTO = nuevoPIN;    
-}
+    const nuevoPIN = prompt("¿Qué contraseña quieres poner como nueva?") 
+    if (nuevoPIN !== null){
+        if (nuevoPIN !== PIN_CORRECTO){
+            (PIN_CORRECTO = nuevoPIN);
+            alert(`Has cambiado el PIN a: ${PIN_CORRECTO}`);
+        }
+        else {
+            alert ("El PIN al que has cambiado, es identico al anterior");
+        }
+    }
+    else {
+        alert ("Añade un PIN valido porfavor");
+    }
+}  
