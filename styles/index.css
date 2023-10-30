@@ -1,3 +1,9 @@
+/* Añadimos fuente externa agregada a assets/fonts */
+@font-face {
+    font-family: "miLetra";
+    src: url("../assets/fonts/TiltNeon-Regular-VariableFont_XROT,YROT.ttf");
+}
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
