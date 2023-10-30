@@ -98,4 +98,4 @@ function cambiarContrasena(){
     else {
         alert ("Añade un PIN valido porfavor");
     }
-}  
+}

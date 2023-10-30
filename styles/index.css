@@ -1,60 +1,141 @@
-/* Estilos generales del index.html */
-body{
-    background-color: rgb(204, 204, 204);
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    align-content: center;
-    align-self: center;
-    margin: auto;
-    width: auto;
+    min-height: 100vh;
 }
 
-/* Estilos para el titulo */
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-/* Estilos para el label */
-label{
-    font-size: 17px;
+/* Estilos del contenedor principal */
+#app {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-/* Estilos para el input */
-input{
-    width: auto;
-    font-size: 17px;
+/* Estilos del título */
+h1 {
+    font-size: 36px;
+    font-family: 'miLetra';
+    color: #0074D9;
 }
 
-/* Estilos para los botones */
-button{
-    background-color: #2929e2;
-    color: white;
+/* Estilos del formulario de inicio de sesión */
+#login-form {
+    margin-top: 20px;
 }
 
-button:hover{
-    background-color: #373794;
-
+/* Estilos del label */
+label {
+    font-size: 18px;
 }
 
-.btnIngresar{
-    background-color: rgb(76, 217, 76);
-    color: white;
+/* Estilos para el input del PIN */
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.btnRetirar{
-    background-color: #e72424;
-    color: white;
+/* Estilo para los botones*/
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-/* Estilos para hacer el cajero (div) */
-div{
-    align-items: center;
-    align-content: center;
-    background-color: white;
-    border: 25px;
-    border-color: black;
+/* Estilo para cuando pasa el raton por encima del boton */
+button:hover {
+    background-color: #0056A1;
+}
+
+/* Estilos del apartado de informacion y las operaciones del cajero */
+#account-info {
+    display: none;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo para el input del dinero que queramos depositar, retirar, o transferie */
+input[type="number"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos del boton para cerrar sesion */
+a button {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a button:hover {
+    background-color: #FF6347;
+}
+
+/* Estilos del botón de ingresar (depositar) */
+.btnIngresar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilos del boton de ingresar (depositar) cuando pasamos el raton por encima */
+.btnIngresar:hover {
+    background-color: #2d832d;
+    color: #fff;
+}
+
+/* Estilos del boton de retiro (retirar) */
+.btnRetirar {
+    background-color: #ec1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilos del boton de retiro (retirar) cuando pasamos el raton por encima */
+.btnRetirar:hover {
+    background-color: #931d1d;
+    color: #fff;
 }
