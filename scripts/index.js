@@ -1,3 +1,9 @@
+/* 
+**AUTOR** Joaquín Sánchez Miravalles
+**REPOSITORIO GITHUB** https://github.com/Joasan11/Examen2-DIW_DWEC
+*/
+
+
 /* Variables principales del cajero */
 let saldo = 1000;
 let PIN_CORRECTO = "1234";
