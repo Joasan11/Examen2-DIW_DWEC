@@ -1,7 +1,7 @@
 /*Cajero Bloqueado*/
 /*Estilos generales*/
 body{
-    background-color: #e0e0e0;
+    background-color: rgb(77, 218, 77);
     align-items: center;
     align-content: center;
 }
@@ -10,7 +10,6 @@ body{
 h1{
     text-align: center;
     font-size: 40px;
-    color: #23d723;
     margin-bottom: 25px;
     margin-top: 20%;
 }
@@ -27,4 +26,10 @@ button{
 button:hover{
     background-color: #363668;
     color: white;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-align: center;
 }
