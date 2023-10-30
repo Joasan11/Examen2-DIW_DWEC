@@ -16,12 +16,16 @@ h1{
 }
 
 /*Estilos para el boton*/
-button{
-    align-content: center;
-    background-color: #006eff;
-    color: white;
-    font-size: 20px;
-    margin-left: 45%;
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 44%;
 }
 
 button:hover{
