@@ -85,8 +85,6 @@ function cerrarSesion() {
 
 /* Funcion para cambiar contraseña */
 function cambiarContrasena(){
-    let nuevoPIN;
-    nuevoPIN = 12;
-    PIN_CORRECTO = nuevoPIN
-    alert(`El pin se ha cambiado correctamente, a: ${PIN_CORRECTO}`);
+    const nuevoPIN = 12;
+    PIN_CORRECTO = nuevoPIN;    
 }
