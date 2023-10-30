@@ -1,29 +1,60 @@
 /* Estilos generales del index.html */
 body{
-
+    background-color: rgb(204, 204, 204);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    width: auto;
 }
 
 /* Estilos para el titulo */
 h1{
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 /* Estilos para el label */
 label{
-
+    font-size: 17px;
+    text-align: center;
 }
 
 /* Estilos para el input */
 input{
-
+    width: auto;
+    font-size: 17px;
 }
 
 /* Estilos para los botones */
 button{
+    background-color: #2929e2;
+    color: white;
+}
 
+button:hover{
+    background-color: #373794;
+
+}
+
+.btnIngresar{
+    background-color: rgb(76, 217, 76);
+    color: white;
+}
+
+.btnRetirar{
+    background-color: #e72424;
+    color: white;
 }
 
 /* Estilos para hacer el cajero (div) */
 div{
-    
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border: 25px;
+    border-color: black;
 }
