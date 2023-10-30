@@ -1,0 +1,87 @@
+/*Font agregado por mi*/
+@font-face{
+    font-family: "MiLetra";
+    src: "";
+}
+
+/*Estilos generales del index.html*/
+body{
+    background-color: #e0e0e0;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/*Estilos del titulo*/
+h1{
+    font-size: 25px;
+    font-family: "MiLetra"
+}
+
+/*Estilos del input*/
+input{
+    margin: 10px 5px;
+    width: 45%;
+}
+
+/*Estilos del boton*/
+button{
+    background-color: #1d3cc4;
+    color: #ffffff;
+    width: 150px;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: #46468e;
+    color: white;
+}
+
+/*Estilos contendor cajero*/
+.app{
+    border: 10px;
+    border-color: black;
+    margin: 25px 10px;
+    background-color: white;
+}
+
+/*Estilos para el boton "Salir*/
+button a{
+    background-color: #dd230b;
+    color: white;
+    width: 150px;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+/*Estilos para el boton depositar*/
+.btnDepositar{
+    background-color: #048604;
+    color: white;
+    width: 150px;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+/*Estilos para el recuadro de cajero*/
+.app{
+    border: 10px;
+    border-color: black;
+    margin: 20px 15px;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.accountinfo{
+    border: 10px;
+    border-color: black;
+    margin: 20px 15px;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: #0505bb;
+}
+

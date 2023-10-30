@@ -1,0 +1,30 @@
+/*Cajero Bloqueado*/
+/*Estilos generales*/
+body{
+    background-color: #e0e0e0;
+    align-items: center;
+    align-content: center;
+}
+
+/*Estilos para el titulo*/
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #23d723;
+    margin-bottom: 25px;
+    margin-top: 20%;
+}
+
+/*Estilos para el boton*/
+button{
+    align-content: center;
+    background-color: #006eff;
+    color: white;
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+button:hover{
+    background-color: #363668;
+    color: white;
+}

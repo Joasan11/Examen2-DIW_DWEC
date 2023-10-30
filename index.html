@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cajero Automático</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <div>
+    <div id="app">
+        <h1>Cajero Automático</h1>
 
-    </div>
-    <div>
-        <input type="number" id="dinero">
-        <button id="depositar">Depositar</button>
-        <button id="retirar">Retirar</button>
-        <button id="transferir">Transferir</button>
-        <button id="cambiarContraseña">Cambiar contraseña</button>
-        <a href="templates/cajeroDespedida.html"><button>Salir</button>
+        <div id="login-form">
+            <label for="pin">Ingrese su PIN:</label>
+            <input type="password" id="pin">
+            <button onclick="iniciarSesion()">Comprobar</button>
+        </div>
+
+        <div id="account-info" style="display: none;">
+            <p>Su saldo actual es: <span id="saldo"></span> €</p>
+
+            <h2>Operaciones bancarias:</h2>
+            <label for="amount">Cantidad:</label>
+            <input type="number" id="amount">
+            <button class="btnIngresar" onclick="depositar()">Ingresar</button>
+            <button onclick="retirar()">Retirar</button>
+            <button onclick="transferir()">Transferir</button>
+            <button onclick="cambiarContraseña()">Cambiar contraseña</button>
+
+            <a href="templates/cajeroDespedida.html"><button onclick="cerrarSesion()">Cerrar Sesión</button></a>
+        </div>
     </div>
 
     <script src="scripts/index.js"></script>
